@@ -1,31 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+.shop--item--container {
+  display: flex;
+}
+.shop--items {
+  display: flex;
+  flex-direction: column;
+}
 
 .itemTitle {
-  font-family: 'Edu NSW ACT Foundation', cursive;
-  color: white;
-  
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 30px;
+  color: black;
+  margin: 0;
 }
 
 .itemImg {
   max-width: 200px;
   height: 250px;
+  margin-bottom: 5px;
 }
 
-.itemImg:hover{
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.itemImg:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-
 
 .itemPrice {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 24px;
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: "Cedarville Cursive", cursive;
+  margin: 0;
 }
 
 .itemAddToCart {
   width: 10rem;
   background: linear-gradient(to right, #11998e, #38ef7d);
+  border-color: rgb(54, 54, 54);
+  border-radius: 20px;
+  border-width: 0;
+  text-align: center;
+  font-size: medium;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-weight: bolder;
+}
+
+.itemAddToCart:hover {
+  opacity: 80%;
 }

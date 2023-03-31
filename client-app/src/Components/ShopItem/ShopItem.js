@@ -3,9 +3,11 @@ import "./ShopItem.css";
 
 export default function ShopItem(props) {
   return (
-    <div>
-      <h1 class="itemTitle">{props.title}</h1>
-      <img class="itemImg" src={props.img} ></img>
+    <div class="shop--item--container">
+      <div class="shop--items">
+            <img class="itemImg" src={props.img} ></img>
+
+      <p class="itemTitle">{props.title}</p>
       <p class="itemPrice">£{props.price}</p>
       {/* <button class="itemAddToCart" onClick={() => console.log(props)} >Add To Cart</button> */}
 
@@ -26,6 +28,7 @@ export default function ShopItem(props) {
       >
         Add To Cart
       </button>
+      </div>
     </div>
   );
 }

@@ -9,8 +9,7 @@ body {
   /* hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none;
   scrollbar-width: none;
-  font-family: 'Edu NSW ACT Foundation', cursive;
-
+  
 }
 
 body::-webkit-scrollbar {
