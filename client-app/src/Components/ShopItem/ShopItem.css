@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.itemTitle {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  color: white;
+  
+}
+
+.itemImg {
+  max-width: 200px;
+  height: 250px;
+}
+
+.itemImg:hover{
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.itemPrice {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.itemAddToCart {
+  width: 10rem;
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}

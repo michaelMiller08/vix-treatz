@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+.customer--basket--page {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.customer--basket--items {
+  display: flex;
+  align-items: center;
+
+  box-shadow: 5px 1px rgb(153, 153, 153);
+  margin-bottom: 10px;
+}
+
+.customer--basket--img {
+  max-height: 1000px;
+  max-width: 100px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.customer--basket--details {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer--basket--details p {
+  margin: 5px;
+}
+.customer--basket--item--title {
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+
+.customer--basket--item--price {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+}

@@ -1,0 +1,20 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  padding-left: 50px;
+}
+
+.container {
+  background: linear-gradient(to right, #bc4e9c, #f80759);
+  display: flex;
+  justify-content: center;
+  padding: 0, 0, 0, 0;
+  margin: 0, 0, 0, 0;
+  border-bottom: 1px solid;
+  border-color: white;
+}
+
+.items {
+  flex-direction: column;
+  display: flex;
+}

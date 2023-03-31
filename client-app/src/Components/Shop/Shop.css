@@ -1,0 +1,25 @@
+.shop--container {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  overflow-y: auto;
+
+  /* hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.shop--item {
+  display: flex;
+  width: 200px;
+  margin: 30px;
+  gap: 30px;
+}
